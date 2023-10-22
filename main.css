@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.box {
+    width: 100%;
+    padding: 70px 0;
+    background-color: #fcae1e;
+    color: #000;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.wrapper {
+    height: 50px;
+}
+
+.task-btn {
+    background-color: #fcae1e;
+    color: #000;
+}
+.task-btn:hover {
+    background-color: #fcae1e;
+    color: #fff;
+}
