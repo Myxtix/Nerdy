@@ -42,7 +42,13 @@ const displayContent = (data) => {
 
 displayContent(taskManager);
 
+// Here the id you are targetting is that of your modal which is 'exampleModal'
+// Your bootstrap modal is not in the id name of 'addModal' that's why it's not hiding it.
+// instead of this
 var addModal = new bootstrap.Modal(document.getElementById('addModal'))
+// this is the correct one
+var addModal = new bootstrap.Modal(document.getElementById('exampleModal'))
+
 
 
 
